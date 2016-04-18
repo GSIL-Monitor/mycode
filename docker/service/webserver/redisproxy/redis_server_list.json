@@ -1,0 +1,17 @@
+{
+	"health_check":0,
+	"check_interval":2,
+	"bulk_safe_read":1,
+	"log_level":2,
+	"default_grp":{
+		"server1":{
+			"host":"10.10.171.91",
+			"port":6379,
+			"timeout":250,
+			"try_connect":2,
+			"sockbuflen":32768,
+			"desc":"test server 1",
+			"weight":60
+		}
+	}
+}

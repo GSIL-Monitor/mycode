@@ -1,0 +1,10 @@
+# CentOS 5 repositories for youku 
+# Build by Qiu Dan. 2010-8
+[youku-dev]
+name=youku-dev
+baseurl=http://yumdev.1verge.net/rpms/youku-dev/6/updates/
+#baseurl=http://yum.navi.1verge.net/rpms/youku-dev/$releasever/updates/$basearch/
+enabled=1
+gpgcheck=0
+
+

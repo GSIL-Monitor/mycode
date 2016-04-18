@@ -1,0 +1,1 @@
+docker build -t bjpjg/redis-server --build-arg redis_cfg=redis_6379.conf  redis_port=6379  .
